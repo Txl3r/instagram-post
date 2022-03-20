@@ -1,0 +1,44 @@
+body{
+    background: black;
+}
+.post{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 0 auto;
+}
+.fa-html5:before {
+    content: "\f13b";
+    font-size: 30px;
+    margin-left: 10px;
+    float: left;
+}
+.text{
+    margin-left: 4px;
+}
+/* div.post .post-header div:first-child{
+    background-color: green;
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    background-color: red;
+    display: inline-block;
+    width: 18%;
+} */
+.post-header {
+    border: 1px solid blue;
+}
+.icon {
+    display: inline-block;
+    width:7%;
+}
+.text {
+    display: inline-block;
+    width:15%;
+}
+.fa-ellipsis-v:before {
+    content: "\f142";
+    font-size: 30px;
+    margin-left: 360px;
+}
