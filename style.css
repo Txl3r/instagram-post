@@ -3,7 +3,7 @@ body{
 }
 .post{
     width: 500px;
-    height: 500px;
+    height: 510px;
     background: white;
     margin: 0 auto;
 }
@@ -15,19 +15,6 @@ body{
 }
 .text{
     margin-left: 4px;
-}
-/* div.post .post-header div:first-child{
-    background-color: green;
-    display: inline-block;
-    width: 80%;
-}
-div.post .post-header div:last-child{
-    background-color: red;
-    display: inline-block;
-    width: 18%;
-} */
-.post-header {
-    border: 1px solid blue;
 }
 .icon {
     display: inline-block;
@@ -41,4 +28,28 @@ div.post .post-header div:last-child{
     content: "\f142";
     font-size: 30px;
     margin-left: 360px;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+.fa-heart-o:before {
+    content: "\f08a";
+    font-size: 45px;
+}
+.fa-comment-o:before {
+    content: "\f0e5";
+    font-size: 45px;
+}
+.fa-send-o:before, .fa-paper-plane-o:before {
+    content: "\f1d9";
+    font-size: 45px;
+}
+.fa-bookmark-o:before {
+    content: "\f097";
+    font-size: 45px;
+    margin-left: 300px;
+}
+p{
+    margin-left: 10px;
 }
