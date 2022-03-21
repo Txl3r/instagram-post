@@ -15,6 +15,7 @@ body{
 }
 .text{
     margin-left: 4px;
+    font-size: 15px;
 }
 .icon {
     display: inline-block;
@@ -31,25 +32,29 @@ body{
 }
 img{
     width: 500px;
-    height: 300px;
+    height: 290px;
 }
 .fa-heart-o:before {
     content: "\f08a";
-    font-size: 45px;
+    font-size: 25px;
+    margin-left: 10px;
 }
 .fa-comment-o:before {
     content: "\f0e5";
-    font-size: 45px;
+    font-size: 25px;
 }
 .fa-send-o:before, .fa-paper-plane-o:before {
     content: "\f1d9";
-    font-size: 45px;
+    font-size: 25px;
 }
 .fa-bookmark-o:before {
     content: "\f097";
-    font-size: 45px;
-    margin-left: 300px;
+    font-size: 25px;
+    margin-left: 370px;
 }
 p{
     margin-left: 10px;
+}
+.post-header{
+    margin-bottom: 20px;
 }
