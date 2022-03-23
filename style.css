@@ -1,3 +1,6 @@
+/* *{
+    border: 1px dashed red
+} */
 body{
     background: black;
 }
@@ -6,6 +9,7 @@ body{
     height: 510px;
     background: white;
     margin: 0 auto;
+    padding: 10px 0px; 
 }
 .fa-html5:before {
     content: "\f13b";
@@ -56,5 +60,6 @@ p{
     margin-left: 10px;
 }
 .post-header{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px
 }
